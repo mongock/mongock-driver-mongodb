@@ -23,4 +23,4 @@ jobs:
 #        run: docker image pull quay.io/testcontainers/dynalite:v1.2.1-1
 
       - name: Unit and Integration tests
-        run: mvn -B -Pit verify
+        run: ./mvnw -B -Pit verify
